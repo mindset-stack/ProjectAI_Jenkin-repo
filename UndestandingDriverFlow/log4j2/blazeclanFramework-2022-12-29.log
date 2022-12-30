@@ -1,0 +1,32 @@
+[INFO ] 2022-12-29 10:57:34.030 [main] Log - chrome browser selected
+[INFO ] 2022-12-29 10:57:34.344 [main] Log - Opened chrome browser
+[INFO ] 2022-12-29 10:57:34.376 [main] Log - Window is maximized
+[INFO ] 2022-12-29 10:57:42.728 [main] Log - Opened URL is  https://pulse-stage.projectai.com/login
+[INFO ] 2022-12-29 10:57:42.907 [main] Log - Text in the element is [[ChromeDriver: chrome on WINDOWS (448bd8cbb1a762fdbd512ffe67e737a6)] -> xpath: //input[@name='username']]is cleared
+[INFO ] 2022-12-29 10:57:42.999 [main] Log - Cliked on textbox [[ChromeDriver: chrome on WINDOWS (448bd8cbb1a762fdbd512ffe67e737a6)] -> xpath: //input[@name='username']]
+[INFO ] 2022-12-29 10:57:43.151 [main] Log - Entered text on [[ChromeDriver: chrome on WINDOWS (448bd8cbb1a762fdbd512ffe67e737a6)] -> xpath: //input[@name='username']] text
+[INFO ] 2022-12-29 10:57:43.221 [main] Log - Text in the element is [[ChromeDriver: chrome on WINDOWS (448bd8cbb1a762fdbd512ffe67e737a6)] -> xpath: //input[@name='password']]is cleared
+[INFO ] 2022-12-29 10:57:43.304 [main] Log - Cliked on textbox [[ChromeDriver: chrome on WINDOWS (448bd8cbb1a762fdbd512ffe67e737a6)] -> xpath: //input[@name='password']]
+[INFO ] 2022-12-29 10:57:43.420 [main] Log - Entered text on [[ChromeDriver: chrome on WINDOWS (448bd8cbb1a762fdbd512ffe67e737a6)] -> xpath: //input[@name='password']] text
+[INFO ] 2022-12-29 10:57:43.516 [main] Log - wait for until element [[ChromeDriver: chrome on WINDOWS (448bd8cbb1a762fdbd512ffe67e737a6)] -> xpath: //button[normalize-space()='Sign In']]is visible
+[INFO ] 2022-12-29 10:57:43.603 [main] Log - Clicked on element [[ChromeDriver: chrome on WINDOWS (448bd8cbb1a762fdbd512ffe67e737a6)] -> xpath: //button[normalize-space()='Sign In']]
+[INFO ] 2022-12-29 10:57:48.694 [main] Log - wait for until element [[ChromeDriver: chrome on WINDOWS (448bd8cbb1a762fdbd512ffe67e737a6)] -> xpath: //span[@class='_3JU2f9K7FBTWn0MXSKilJa']]is visible
+[INFO ] 2022-12-29 10:57:48.777 [main] Log - Clicked on element [[ChromeDriver: chrome on WINDOWS (448bd8cbb1a762fdbd512ffe67e737a6)] -> xpath: //span[@class='_3JU2f9K7FBTWn0MXSKilJa']]
+[INFO ] 2022-12-29 10:57:51.841 [main] Log - wait for until element [[ChromeDriver: chrome on WINDOWS (448bd8cbb1a762fdbd512ffe67e737a6)] -> xpath: //a[normalize-space()='Log Out']]is visible
+[INFO ] 2022-12-29 10:57:55.323 [main] Log - Clicked on element Proxy element for: DefaultElementLocator 'By.xpath: //a[normalize-space()='Log Out']'
+[INFO ] 2022-12-29 16:19:29.729 [main] Log - chrome browser selected
+[INFO ] 2022-12-29 16:19:30.016 [main] Log - Opened chrome browser
+[INFO ] 2022-12-29 16:19:30.028 [main] Log - Window is maximized
+[INFO ] 2022-12-29 16:19:37.523 [main] Log - Opened URL is  https://pulse-stage.projectai.com/login
+[INFO ] 2022-12-29 16:19:37.706 [main] Log - Text in the element is [[ChromeDriver: chrome on WINDOWS (9cb1832a609e3438ca32e2fa8ad60fc1)] -> xpath: //input[@name='username']]is cleared
+[INFO ] 2022-12-29 16:19:37.795 [main] Log - Cliked on textbox [[ChromeDriver: chrome on WINDOWS (9cb1832a609e3438ca32e2fa8ad60fc1)] -> xpath: //input[@name='username']]
+[INFO ] 2022-12-29 16:19:37.950 [main] Log - Entered text on [[ChromeDriver: chrome on WINDOWS (9cb1832a609e3438ca32e2fa8ad60fc1)] -> xpath: //input[@name='username']] text
+[INFO ] 2022-12-29 16:19:38.024 [main] Log - Text in the element is [[ChromeDriver: chrome on WINDOWS (9cb1832a609e3438ca32e2fa8ad60fc1)] -> xpath: //input[@name='password']]is cleared
+[INFO ] 2022-12-29 16:19:38.094 [main] Log - Cliked on textbox [[ChromeDriver: chrome on WINDOWS (9cb1832a609e3438ca32e2fa8ad60fc1)] -> xpath: //input[@name='password']]
+[INFO ] 2022-12-29 16:19:38.192 [main] Log - Entered text on [[ChromeDriver: chrome on WINDOWS (9cb1832a609e3438ca32e2fa8ad60fc1)] -> xpath: //input[@name='password']] text
+[INFO ] 2022-12-29 16:19:38.279 [main] Log - wait for until element [[ChromeDriver: chrome on WINDOWS (9cb1832a609e3438ca32e2fa8ad60fc1)] -> xpath: //button[normalize-space()='Sign In']]is visible
+[INFO ] 2022-12-29 16:19:38.393 [main] Log - Clicked on element [[ChromeDriver: chrome on WINDOWS (9cb1832a609e3438ca32e2fa8ad60fc1)] -> xpath: //button[normalize-space()='Sign In']]
+[INFO ] 2022-12-29 16:19:43.483 [main] Log - wait for until element [[ChromeDriver: chrome on WINDOWS (9cb1832a609e3438ca32e2fa8ad60fc1)] -> xpath: //span[@class='_3JU2f9K7FBTWn0MXSKilJa']]is visible
+[INFO ] 2022-12-29 16:19:43.556 [main] Log - Clicked on element [[ChromeDriver: chrome on WINDOWS (9cb1832a609e3438ca32e2fa8ad60fc1)] -> xpath: //span[@class='_3JU2f9K7FBTWn0MXSKilJa']]
+[INFO ] 2022-12-29 16:19:46.612 [main] Log - wait for until element [[ChromeDriver: chrome on WINDOWS (9cb1832a609e3438ca32e2fa8ad60fc1)] -> xpath: //a[normalize-space()='Log Out']]is visible
+[INFO ] 2022-12-29 16:19:49.505 [main] Log - Clicked on element Proxy element for: DefaultElementLocator 'By.xpath: //a[normalize-space()='Log Out']'
