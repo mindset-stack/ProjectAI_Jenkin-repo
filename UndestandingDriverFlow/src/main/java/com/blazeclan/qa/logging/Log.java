@@ -16,13 +16,18 @@ public class Log {
 		extentLog(message);
 		
 	}
+	public static void warn (String message) {
+        Log.warn(message);
+        extentLog(message);
+       // cucumberLog(message);
+    }
 	
 	public static void error(String message) {
 		
 		Log.error(message);
 		extentLog(message);
 	}
- private static void extentLog(String message) {
+	private static void extentLog(String message) {
 	 if(ExtentTestManager.getTest() != null) {
 	 ExtentTestManager.getTest().log(Status.INFO, message);
 	 }

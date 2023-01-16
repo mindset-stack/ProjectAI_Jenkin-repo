@@ -1,9 +1,14 @@
 package com.blazeclan.qa.test.testng;
 
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.blazeclan.qa.pages.LoginPage;
+import com.blazeclan.qa.utility.TestListener;
+
+//@Listeners(TestListener.class)
+
 
 public class LoginTest extends BaseTest {
 	
