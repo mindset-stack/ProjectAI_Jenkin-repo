@@ -2,19 +2,23 @@ package com.blazeclan.qa.test.testng;
 
 import java.util.Properties;
 
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Listeners;
 
 import com.blazeclan.qa.base.CommonFunctions;
 import com.blazeclan.qa.constants.IConstants;
+import com.blazeclan.qa.pages.AboutMePage;
 import com.blazeclan.qa.pages.LoginPage;
 import com.blazeclan.qa.pages.LogoutPage;
 import com.blazeclan.qa.utility.TestListener;
 
 public class BaseTest extends CommonFunctions {
 	
-	public static LoginPage loginpage;
-	public static LogoutPage logoutpage;
+	public  LoginPage loginpage;
+	public  LogoutPage logoutpage;
+	public  AboutMePage aboutmepage;
+	
 	
 	
 	
@@ -27,6 +31,12 @@ public class BaseTest extends CommonFunctions {
 		
 		
 		
+	}
+	
+	@AfterTest
+	public void logout() {
+		//extent.flush();
+		//driver.quit();
 	}
 
 }

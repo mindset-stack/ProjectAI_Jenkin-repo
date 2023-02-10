@@ -14,6 +14,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -22,22 +23,29 @@ import com.blazeclan.qa.utility.CrossBrowser;
 
 public class CommonFunctions {
 
+
+	/**
+	 * This is a class for common functions where all common actions like initialize browser, load property file, 
+	 * click events..etc are written
+	 * @param args
+	 */
+
 	public static WebDriver driver;
 
 	public static Properties init_properties(String path)   {
 
 		Properties prop = new Properties();
-        try {
-            File file = new File(path);
-            if (!file.exists()) {
-                throw new FileNotFoundException("File doesn't exits");
-            }
-            FileInputStream fis = new FileInputStream(file);
-            prop.load(fis);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        return prop;
+		try {
+			File file = new File(path);
+			if (!file.exists()) {
+				throw new FileNotFoundException("File doesn't exits");
+			}
+			FileInputStream fis = new FileInputStream(file);
+			prop.load(fis);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		return prop;
 	}
 
 	public void invokeBrowser(String browserName) {
@@ -65,7 +73,7 @@ public class CommonFunctions {
 
 
 
-		//Log.error("The error is" +e.getMessage());
+
 
 
 
@@ -74,20 +82,26 @@ public class CommonFunctions {
 	public void clickElement(WebElement element) {
 
 
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
 		wait.until(ExpectedConditions.visibilityOf(element));
 		Log.info("wait for until element "+ element.toString() + "is visible");
 		element.click();
 		Log.info("Clicked on element " +element);
 
-
-
-
-
-
-
 	}
 
+	public void slidingAction(WebElement element1)
+	{
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
+		wait.until(ExpectedConditions.visibilityOf(element1));
+		Log.info("wait for until element "+ element1.toString() + "is visible");
+		//element.click();
+		Actions act = new Actions(driver);
+		act.dragAndDropBy(element1, 99, 0).build().perform();
+		Log.info("slider action performed on element " +element1);
+
+		
+	}
 	public String captureScreenshot(String screenshotName, String result) {
 		String date = new SimpleDateFormat("yyyy_MM_dd_hh_mm_ss").format(new Date());
 
@@ -105,4 +119,6 @@ public class CommonFunctions {
 		}
 		return destPath;
 	}
+
+
 }

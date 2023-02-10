@@ -63,7 +63,7 @@ public class TestListener extends CommonFunctions implements ITestListener {
 	public void onTestSuccess(ITestResult result) {
 
 		Log.info(result.getName() + "Test is passed");
-		Log.info(result.getName() +" " +  result.getInstanceName()+ " " +result.id() + " " +Arrays.toString(result.getFactoryParameters()));
+			Log.info(result.getName() +" " +  result.getInstanceName()+ " " +result.id() + " " +Arrays.toString(result.getFactoryParameters()));
 		String screenshotpath =captureScreenshot(result.getName(),"Success");
 		MediaEntityBuilder screenshot= MediaEntityBuilder.createScreenCaptureFromPath(screenshotpath);
 		ExtentTestManager.getTest().log(Status.PASS, "Test Passed ", screenshot.build());

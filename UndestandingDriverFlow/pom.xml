@@ -26,6 +26,15 @@
       <scope>test</scope>
     </dependency>
     
+    <!-- https://mvnrepository.com/artifact/org.sonarsource.sonarqube/sonar-plugin-api -->
+<dependency>
+    <groupId>org.sonarsource.sonarqube</groupId>
+    <artifactId>sonar-plugin-api</artifactId>
+    <version>9.3.0.51899</version>
+    <scope>provided</scope>
+</dependency>
+
+    
     <dependency>
   <groupId>org.testng</groupId>
   <artifactId>testng</artifactId>
@@ -38,6 +47,8 @@
     <artifactId>selenium-java</artifactId>
     <version>4.7.1</version>
 </dependency>
+
+
 
 
 <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->

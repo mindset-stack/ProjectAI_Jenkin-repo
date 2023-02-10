@@ -1,0 +1,46 @@
+[INFO ] 2023-01-17 10:40:35.152 [main] Log - chrome browser selected
+[INFO ] 2023-01-17 10:40:35.414 [main] Log - Opened chrome browser
+[INFO ] 2023-01-17 10:40:35.429 [main] Log - Window is maximized
+[INFO ] 2023-01-17 10:40:43.373 [main] Log - Opened URL is  https://pulse-stage.projectai.com/login
+[INFO ] 2023-01-17 10:40:43.409 [main] Log - LoginPage Test is starting. 
+[INFO ] 2023-01-17 10:40:43.529 [main] Log - Text in the element is [[ChromeDriver: chrome on WINDOWS (e493969b9f0603a6a2b51edae7cb9535)] -> xpath: //input[@name='username']]is cleared
+[INFO ] 2023-01-17 10:40:43.593 [main] Log - Cliked on textbox [[ChromeDriver: chrome on WINDOWS (e493969b9f0603a6a2b51edae7cb9535)] -> xpath: //input[@name='username']]
+[INFO ] 2023-01-17 10:40:43.695 [main] Log - Entered text on [[ChromeDriver: chrome on WINDOWS (e493969b9f0603a6a2b51edae7cb9535)] -> xpath: //input[@name='username']] text
+[INFO ] 2023-01-17 10:40:43.747 [main] Log - Text in the element is [[ChromeDriver: chrome on WINDOWS (e493969b9f0603a6a2b51edae7cb9535)] -> xpath: //input[@name='password']]is cleared
+[INFO ] 2023-01-17 10:40:43.801 [main] Log - Cliked on textbox [[ChromeDriver: chrome on WINDOWS (e493969b9f0603a6a2b51edae7cb9535)] -> xpath: //input[@name='password']]
+[INFO ] 2023-01-17 10:40:43.874 [main] Log - Entered text on [[ChromeDriver: chrome on WINDOWS (e493969b9f0603a6a2b51edae7cb9535)] -> xpath: //input[@name='password']] text
+[INFO ] 2023-01-17 10:40:43.960 [main] Log - wait for until element [[ChromeDriver: chrome on WINDOWS (e493969b9f0603a6a2b51edae7cb9535)] -> xpath: //button[normalize-space()='Sign In']]is visible
+[INFO ] 2023-01-17 10:40:44.052 [main] Log - Clicked on element [[ChromeDriver: chrome on WINDOWS (e493969b9f0603a6a2b51edae7cb9535)] -> xpath: //button[normalize-space()='Sign In']]
+[INFO ] 2023-01-17 10:40:49.069 [main] Log - LoginPageTest is passed
+[INFO ] 2023-01-17 10:40:49.069 [main] Log - LoginPage com.blazeclan.qa.test.testng.LoginTest 74cbd45f-75a6-4514-9e61-66a37887b3af []
+[INFO ] 2023-01-17 10:40:49.269 [main] Log - Logout Test is starting. 
+[INFO ] 2023-01-17 10:40:49.308 [main] Log - wait for until element [[ChromeDriver: chrome on WINDOWS (e493969b9f0603a6a2b51edae7cb9535)] -> xpath: //span[@class='_3JU2f9K7FBTWn0MXSKilJa']]is visible
+[INFO ] 2023-01-17 10:40:49.358 [main] Log - Clicked on element [[ChromeDriver: chrome on WINDOWS (e493969b9f0603a6a2b51edae7cb9535)] -> xpath: //span[@class='_3JU2f9K7FBTWn0MXSKilJa']]
+[INFO ] 2023-01-17 10:40:52.403 [main] Log - wait for until element [[ChromeDriver: chrome on WINDOWS (e493969b9f0603a6a2b51edae7cb9535)] -> xpath: //a[normalize-space()='Log Out']]is visible
+[INFO ] 2023-01-17 10:40:55.007 [main] Log - Clicked on element Proxy element for: DefaultElementLocator 'By.xpath: //a[normalize-space()='Log Out']'
+[INFO ] 2023-01-17 10:40:55.008 [main] Log - LogoutTest is passed
+[INFO ] 2023-01-17 10:40:55.009 [main] Log - Logout com.blazeclan.qa.test.testng.LogoutTest de89a4f4-b860-4559-83ca-2f422ba96b39 []
+[INFO ] 2023-01-17 10:40:55.271 [main] Log - I am on finish method testng
+[INFO ] 2023-01-17 14:34:24.936 [main] Log - chrome browser selected
+[INFO ] 2023-01-17 14:34:25.172 [main] Log - Opened chrome browser
+[INFO ] 2023-01-17 14:34:25.188 [main] Log - Window is maximized
+[INFO ] 2023-01-17 14:34:33.549 [main] Log - Opened URL is  https://pulse-stage.projectai.com/login
+[INFO ] 2023-01-17 14:34:33.589 [main] Log - LoginPage Test is starting. 
+[INFO ] 2023-01-17 14:34:33.701 [main] Log - Text in the element is [[ChromeDriver: chrome on WINDOWS (0aa1bfbceb802338a1db37f4f940c45c)] -> xpath: //input[@name='username']]is cleared
+[INFO ] 2023-01-17 14:34:33.790 [main] Log - Cliked on textbox [[ChromeDriver: chrome on WINDOWS (0aa1bfbceb802338a1db37f4f940c45c)] -> xpath: //input[@name='username']]
+[INFO ] 2023-01-17 14:34:33.927 [main] Log - Entered text on [[ChromeDriver: chrome on WINDOWS (0aa1bfbceb802338a1db37f4f940c45c)] -> xpath: //input[@name='username']] text
+[INFO ] 2023-01-17 14:34:33.976 [main] Log - Text in the element is [[ChromeDriver: chrome on WINDOWS (0aa1bfbceb802338a1db37f4f940c45c)] -> xpath: //input[@name='password']]is cleared
+[INFO ] 2023-01-17 14:34:34.030 [main] Log - Cliked on textbox [[ChromeDriver: chrome on WINDOWS (0aa1bfbceb802338a1db37f4f940c45c)] -> xpath: //input[@name='password']]
+[INFO ] 2023-01-17 14:34:34.096 [main] Log - Entered text on [[ChromeDriver: chrome on WINDOWS (0aa1bfbceb802338a1db37f4f940c45c)] -> xpath: //input[@name='password']] text
+[INFO ] 2023-01-17 14:34:34.150 [main] Log - wait for until element [[ChromeDriver: chrome on WINDOWS (0aa1bfbceb802338a1db37f4f940c45c)] -> xpath: //button[normalize-space()='Sign In']]is visible
+[INFO ] 2023-01-17 14:34:34.204 [main] Log - Clicked on element [[ChromeDriver: chrome on WINDOWS (0aa1bfbceb802338a1db37f4f940c45c)] -> xpath: //button[normalize-space()='Sign In']]
+[INFO ] 2023-01-17 14:34:39.229 [main] Log - LoginPageTest is passed
+[INFO ] 2023-01-17 14:34:39.229 [main] Log - LoginPage com.blazeclan.qa.test.testng.LoginTest b5e4dabb-6ae8-461e-89ba-58cef63bd3a6 []
+[INFO ] 2023-01-17 14:34:39.449 [main] Log - Logout Test is starting. 
+[INFO ] 2023-01-17 14:34:39.495 [main] Log - wait for until element [[ChromeDriver: chrome on WINDOWS (0aa1bfbceb802338a1db37f4f940c45c)] -> xpath: //span[@class='_3JU2f9K7FBTWn0MXSKilJa']]is visible
+[INFO ] 2023-01-17 14:34:39.546 [main] Log - Clicked on element [[ChromeDriver: chrome on WINDOWS (0aa1bfbceb802338a1db37f4f940c45c)] -> xpath: //span[@class='_3JU2f9K7FBTWn0MXSKilJa']]
+[INFO ] 2023-01-17 14:34:42.594 [main] Log - wait for until element [[ChromeDriver: chrome on WINDOWS (0aa1bfbceb802338a1db37f4f940c45c)] -> xpath: //a[normalize-space()='Log Out']]is visible
+[INFO ] 2023-01-17 14:34:44.593 [main] Log - Clicked on element Proxy element for: DefaultElementLocator 'By.xpath: //a[normalize-space()='Log Out']'
+[INFO ] 2023-01-17 14:34:44.595 [main] Log - LogoutTest is passed
+[INFO ] 2023-01-17 14:34:44.596 [main] Log - Logout com.blazeclan.qa.test.testng.LogoutTest 47112e2e-7a8e-4bcc-80d7-5291be149e66 []
+[INFO ] 2023-01-17 14:34:44.876 [main] Log - I am on finish method testng
