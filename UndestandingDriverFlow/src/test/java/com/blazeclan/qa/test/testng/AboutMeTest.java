@@ -26,7 +26,7 @@ public class AboutMeTest extends BaseTest {
 		 
 		 
 		 
-		// clickElement(aboutmepage.comment);
+		 clickElement(aboutmepage.comment);
 		 
 		 
 		 

@@ -23,7 +23,7 @@ public class AboutMePage {
 	@FindBy(xpath="//*[@class='_2kiHKNbvQmG4zgHt7oz96W EIwcdJQ929umkl9iYDdm9']")
 	public WebElement answer;
 	
-	@FindBy(xpath="//body/div[@id='root']/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/a[1]")
+	@FindBy(xpath="//a[@class='_1hylHuyaZ6-giDZ1GsftK3']")
 	public WebElement comment;
 	
 	public AboutMePage(WebDriver driver) {
