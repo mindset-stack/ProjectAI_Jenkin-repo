@@ -10,7 +10,7 @@
         <classes>
       <class name="com.blazeclan.qa.test.testng.BaseTest"/>
       <class name="com.blazeclan.qa.test.testng.LoginTest"/>
-     <!-- <class name="com.blazeclan.qa.test.testng.LogoutTest"/> -->
+    
        <class name="com.blazeclan.qa.test.testng.AboutMeTest"/>
       
       

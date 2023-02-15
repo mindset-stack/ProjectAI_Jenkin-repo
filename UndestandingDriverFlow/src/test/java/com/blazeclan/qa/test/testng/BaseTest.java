@@ -36,7 +36,7 @@ public class BaseTest extends CommonFunctions {
 	@AfterTest
 	public void logout() {
 		//extent.flush();
-		//driver.quit();
+		driver.quit();
 	}
 
 }
