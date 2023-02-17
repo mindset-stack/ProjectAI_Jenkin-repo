@@ -8,7 +8,7 @@ import com.blazeclan.qa.pages.LogoutPage;
 
 public class AboutMeTest extends BaseTest {
 	
-	@Test(priority=1)
+	@Test(priority=2)
 	public void AboutMe() throws InterruptedException {
 		Thread.sleep(5000);
 		 aboutmepage=new AboutMePage(driver);
