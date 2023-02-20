@@ -33,7 +33,7 @@ public class LoginTest extends BaseTest {
 		String currentUrl= driver.getCurrentUrl();
 		String actualUrl= "https://pulse-stage.projectai.com/app/help/how-to-use-pulse";
 		Assert.assertEquals(actualUrl, currentUrl);
-		
+		Thread.sleep(5000);		
 	}
 
 }

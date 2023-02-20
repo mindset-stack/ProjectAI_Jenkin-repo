@@ -1,23 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+<testng-results ignored="6" total="9" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-20T13:30:36 IST" name="All Test Suite" finished-at="2023-02-20T13:30:54 IST" duration-ms="18018">
+  <suite started-at="2023-02-20T14:57:55 IST" name="All Test Suite" finished-at="2023-02-20T14:58:40 IST" duration-ms="44783">
     <groups>
     </groups>
-    <test started-at="2023-02-20T13:30:36 IST" name="testng" finished-at="2023-02-20T13:30:54 IST" duration-ms="18018">
+    <test started-at="2023-02-20T14:57:55 IST" name="testng" finished-at="2023-02-20T14:58:40 IST" duration-ms="44783">
       <class name="com.blazeclan.qa.test.testng.BaseTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.blazeclan.qa.test.testng.BaseTest@c730b35]" started-at="2023-02-20T13:30:36 IST" name="setUp" finished-at="2023-02-20T13:30:49 IST" duration-ms="12877" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.blazeclan.qa.test.testng.BaseTest@36ebc363]" started-at="2023-02-20T14:57:55 IST" name="setUp" finished-at="2023-02-20T14:58:09 IST" duration-ms="14134" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.blazeclan.qa.test.testng.BaseTest@c730b35]" started-at="2023-02-20T13:30:53 IST" name="logout" finished-at="2023-02-20T13:30:54 IST" duration-ms="1214" status="PASS">
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.blazeclan.qa.test.testng.BaseTest@36ebc363]" started-at="2023-02-20T14:58:39 IST" name="logout" finished-at="2023-02-20T14:58:40 IST" duration-ms="1229" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
       </class> <!-- com.blazeclan.qa.test.testng.BaseTest -->
+      <class name="com.blazeclan.qa.test.testng.AboutMeTest">
+        <test-method signature="AboutMe()[pri:2, instance:com.blazeclan.qa.test.testng.AboutMeTest@6989da5e]" started-at="2023-02-20T14:58:18 IST" name="AboutMe" finished-at="2023-02-20T14:58:32 IST" duration-ms="13253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AboutMe -->
+      </class> <!-- com.blazeclan.qa.test.testng.AboutMeTest -->
+      <class name="com.blazeclan.qa.test.testng.LogoutTest">
+        <test-method signature="Logout()[pri:1, instance:com.blazeclan.qa.test.testng.LogoutTest@385c9627]" started-at="2023-02-20T14:58:32 IST" name="Logout" finished-at="2023-02-20T14:58:38 IST" duration-ms="6333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+      </class> <!-- com.blazeclan.qa.test.testng.LogoutTest -->
       <class name="com.blazeclan.qa.test.testng.LoginTest">
-        <test-method signature="LoginPage()[pri:1, instance:com.blazeclan.qa.test.testng.LoginTest@2f4948e4]" started-at="2023-02-20T13:30:49 IST" name="LoginPage" finished-at="2023-02-20T13:30:53 IST" duration-ms="3669" status="PASS">
+        <test-method signature="LoginPage()[pri:1, instance:com.blazeclan.qa.test.testng.LoginTest@5aa9e4eb]" started-at="2023-02-20T14:58:09 IST" name="LoginPage" finished-at="2023-02-20T14:58:18 IST" duration-ms="8979" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginPage -->

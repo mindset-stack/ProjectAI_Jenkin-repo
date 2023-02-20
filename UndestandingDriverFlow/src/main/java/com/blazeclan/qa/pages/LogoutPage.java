@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class LogoutPage {
 	
-	@FindBy(xpath="//span[@class='_3JU2f9K7FBTWn0MXSKilJa']")
+	@FindBy(xpath="//div[@class='ij_XRAOXFVqUYY8480uZC']")
 	public WebElement logoutlink;
 	@FindBy(xpath="//a[normalize-space()='Log Out']")
 	public WebElement logoutbtn;

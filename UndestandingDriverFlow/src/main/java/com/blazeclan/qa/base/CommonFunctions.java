@@ -97,7 +97,7 @@ public class CommonFunctions {
 		Log.info("wait for until element "+ element1.toString() + "is visible");
 		//element.click();
 		Actions act = new Actions(driver);
-		act.dragAndDropBy(element1, 99, 0).build().perform();
+		act.dragAndDropBy(element1, 30, 0).build().perform();
 		Log.info("slider action performed on element " +element1);
 
 		

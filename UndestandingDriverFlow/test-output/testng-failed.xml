@@ -6,13 +6,13 @@
   </listeners>
   <test thread-count="5" name="testng(failed)">
     <classes>
-      <class name="com.blazeclan.qa.test.testng.AboutMeTest">
+      <class name="com.blazeclan.qa.test.testng.LogoutTest">
         <methods>
-          <include name="AboutMe"/>
           <include name="setUp"/>
           <include name="logout"/>
+          <include name="Logout"/>
         </methods>
-      </class> <!-- com.blazeclan.qa.test.testng.AboutMeTest -->
+      </class> <!-- com.blazeclan.qa.test.testng.LogoutTest -->
     </classes>
   </test> <!-- testng(failed) -->
 </suite> <!-- Failed suite [All Test Suite] -->
