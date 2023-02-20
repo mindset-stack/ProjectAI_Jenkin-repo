@@ -27,7 +27,7 @@ public class LogoutTest extends BaseTest {
 	    * @param args
 	*/
 	
-	@Test(priority=1)
+	@Test(priority=2)
 	public void Logout() throws InterruptedException {
 		logoutpage= new LogoutPage(driver);
 		 clickElement(logoutpage.logoutlink);
