@@ -8,6 +8,8 @@ import com.blazeclan.qa.pages.LogoutPage;
 
 public class AboutMeTest extends BaseTest {
 	
+	//this is about me page
+	
 	@Test(priority=2)
 	public void AboutMe() throws InterruptedException {
 		Thread.sleep(5000);
