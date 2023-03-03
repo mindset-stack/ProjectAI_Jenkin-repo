@@ -15,20 +15,20 @@ public class CrossBrowser extends CommonFunctions{
 		
 		switch(browser){
 		case"chrome":
-		ChromeOptions options=  new ChromeOptions();
+		//ChromeOptions options=  new ChromeOptions();
 	
-		options.addArguments("start-maximized");
+		//options.addArguments("start-maximized");
 		
-		WebDriverManager.chromedriver().setup();
-       driver = new ChromeDriver(); 
+		//WebDriverManager.chromedriver().setup();
+      // driver = new ChromeDriver(); 
 	//driver= WebDriverManager.chromedriver().capabilities(options).create();
 		
 		
 
 			
-		Log.info("chrome browser selected");
-		break;
-		default: System.out.println("Please provide browser name");
+		//Log.info("chrome browser selected");
+		//break;
+		//default: System.out.println("Please provide browser name");
 	System.setProperty("webdriver.chrome.driver", "/usr/bin/google-chrome");
 		
 		WebDriver driver = new ChromeDriver();
